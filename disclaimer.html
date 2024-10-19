@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles Sheet Links -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
+    <!-- Icons Link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css" rel="stylesheet">
+
+    <!-- Google Fonts Link -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Script Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script defer src="/script.js"></script>
+
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="images/B7E8B69E-CF58-41CD-995D-58AC0BA5E166-removebg-preview.png"
+        type="image/x-icon">
+    <title>Home - Keansburg Amusement Park</title>
+    <style>
+           body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      color: #666;
+      line-height: 1.5;
+    }
+    .contact-link {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .contact-link:hover {
+      text-decoration: underline;
+    }
+      </style>
+</head>
+<!-- Body -->
+
+<body>
+    <header>
+        <div class="logo"><img src="images/B7E8B69E-CF58-41CD-995D-58AC0BA5E166-removebg-preview.png" width="160px"
+                height="160px" alt=""></div>
+
+                <div class="menu" id="menu-open-id"><i class="ri-menu-line" onclick="clickme()"></i></div>
+                <div class="menu-close" id="menu-close-id"><i class="ri-close-large-line" onclick="closeme()"></i></div>
+               
+
+
+        <div class="header-links">
+            <div class="live-count">
+                <p style="font-size: 19px;">Page Views:</p> &nbsp; <div class="website-counter"></div>
+                <!-- <button id="reset">Reset</button>-->
+            </div>
+            <div class="link-h"><a href="/about us.html">ABOUT US</a></div>
+            <div class="link-h"><a href="/contact.html">CONTACT</a></div>
+            <div class="link-h"><a href="/signup.html">SIGNUP</a></div>
+            <div class="link-h"><a href="/disclaimer.html">DISCLAIMER</a></div>
+            <div class="link-h"><a href="another feedback.html">FEEDBACK</a></div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container-nav">
+            <div class="nav">
+                <!-- first dropdown -->
+                <div class="dropdown-1">
+                    <span><a href="/index.html">AMUSEMENT PARK</a></span>
+                    <div class="dropdown-content">
+                        <a href="/index.html">Go Karts</a><br>
+                        <a href="/index.html">Keansburg Games</a><br>
+                        <a href="/index.html">Beach</a><br>
+                        <a href="/index.html">Batting Cages</a><br>
+                        <a href="/index.html">Arcades</a>
+                        <div class="image-d-d">
+                            <img src="/images/twister-1.png" width="195px" height="195px" alt="image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second link -->
+                <div class="dropdown-1">
+                    <span><a href="/image gallery.html">IMAGE GALLERY</a></span>
+                    <!-- <div class="dropdown-content2">
+                        <a href="/index.html">Slides</a><br>
+                        <a href="/index.html">Kiddie Lagoon</a><br>
+                        <a href="/index.html">Changing Rooms</a><br>
+                        <a href="/index.html">Lockers</a><br>
+                        <a href="/index.html">Dining</a><br>
+                        <a href="/index.html">Pricing</a>
+                        <div class="image-d-d-2">
+                            <img src="/images/waterpark.png" width="195px" height="195px" alt="image">
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- third link -->
+                <div class="dropdown-1">
+                    <span><a href="/dining.html">DINING</a></span>
+                    <div class="dropdown-content3">
+                        <a href="/dining.html">Flavor Burst</a><br>
+                        <a href="/dining.html">Cotton Candy</a><br>
+                        <a href="/dining.html">Zeppole's</a><br>
+                        <a href="/dining.html">Mambo Nando's</a><br>
+                        <a href="/dining.html">Glenda's Great Fries</a><br>
+                        <a href="/dining.html">Candid Confections</a><br>
+                        <a href="/dining.html" id="a-2">More...</a>
+                        <div class="image-d-d-3">
+                            <img src="/images/dining.jpg" width="195px" height="195px" alt="image">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Fourth link -->
+                <div class="dropdown-1">
+                    <span><a href="https://keansburgamusementpark.com/wp-content/uploads/2023/02/KeansburgAmuesment_OperatingSchedule_2024_V3.pdf">HOURS</a></span>
+                    <!-- <div class="dropdown-content4">
+                        <a href="#">Group Packages</a><br>
+                        <a href="#">Birthday Packages</a><br>
+                        <a href="#">Fundraising</a>
+                        <div class="image-d-d-4">
+                            <img src="/images/groups.png" width="195px" height="195px" alt="image">
+                        </div>
+                    </div> -->
+                </div>
+
+
+                <!-- Buy tickets -->
+                <div class="last-main">
+                    <div class="last-tick">
+                        <p><a href="/buy tickets.html" id="b-t">BUY TICKET</a></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+     <!-- Mobile Menu -->
+     <div class="mobile-nav" id="mobilenav">
+        <div class="icons-nav">
+            <div class="links-mb-1"><a href="#">Shopping Cart<i style="color: #fff4cc"
+                        class="ri-shopping-cart-2-fill"></i></a></div>
+            <div class="links-mb-2"><a href="/index.html">Amusement Park</a></div>
+            <div class="links-mb-3"><a href="/index.html">WaterPark</a></div>
+            <div class="links-mb-4"><a href="/dining.html">Dining</a></div>
+            <div class="links-mb-5"><a href="/buy tickets.html">Buy Tickets</a></div>
+            <div class="links-mb-5"><a href="/another feedback.html">Feedback</a></div>
+            <div class="links-mb-6"><a href="https://keansburgamusementpark.com/wp-content/uploads/2023/02/KeansburgAmuesment_OperatingSchedule_2024_V3.pdf">Hours</a></div>
+            <div class="links-mb-7"><a href="/login.html">Login <i style="color: #fff4cc" class="ri-account-circle-fill"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <h1>Disclaimer</h1>
+        <p>Welcome to Keansburg Amusement Park! Before you explore our website further, please take a moment to review the following disclaimer:</p>
+        <ol>
+          <li><strong>Accuracy of Information:</strong> While we strive to provide accurate and up-to-date information on our website, we cannot guarantee the completeness, accuracy, or reliability of any content. Information provided here is subject to change without notice.</li>
+          <li><strong>Use of Information:</strong> The content on our website is intended for general informational purposes only. It should not be construed as professional advice or relied upon for making decisions. Visitors should always seek appropriate professional advice before acting on any information provided on this site.</li>
+          <li><strong>Third-Party Links:</strong> Our website may contain links to third-party websites or resources. These links are provided solely for your convenience, and we do not endorse or take responsibility for the content, accuracy, or reliability of any third-party sites linked from our website.</li>
+          <li><strong>Limitation of Liability:</strong> Keansburg Amusement Park, its affiliates, partners, employees, or agents shall not be held liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of our website or the information contained herein.</li>
+          <li><strong>Indemnity:</strong> By using our website, you agree to indemnify and hold harmless Keansburg Amusement Park, its affiliates, partners, employees, and agents from any claims, damages, losses, liabilities, or expenses (including legal fees) arising out of your use of our website or any violation of these terms.</li>
+          <li><strong>Changes to Terms:</strong> We reserve the right to modify or update these disclaimers at any time without prior notice. Your continued use of our website after any changes signifies your acceptance of the revised terms.</li>
+          <li><strong>Jurisdiction:</strong> These disclaimers shall be governed by and construed in accordance with the laws of the jurisdiction of Keansburg Amusement Park, without regard to its conflict of law provisions.</li>
+        </ol>
+        <p>If you have any questions or concerns regarding our disclaimer, please <a href="mailto:contact@keansburgamusementpark.com" class="contact-link">contact us</a>.</p>
+        <p>Thank you for visiting Keansburg Amusement Park! We hope you have a thrilling experience exploring our website and visiting our park.</p>
+      </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Keansburg Amusement Park has been providing fun and entertainment for families since 1904. Our mission is to create lasting memories and unforgettable experiences for our guests.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/about us.html">About Us</a></li>
+              <li><a href="/disclaimer.html">Disclaimer</a></li>
+              <li><a href="/buy tickets.html">Tickets</a></li>
+              <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Information</h3>
+            <p>123 Boardwalk Ave<br>Keansburg, NJ 07734<br>Phone: 1-800-555-1234<br>Email: info@keansburgamusementpark.com</p>
+          </div>
+          <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+    
+    
+        <p>&copy; 2024 Keansburg Amusement Park. All rights reserved.</p>
+        <!-- <p id="p1"></p> -->
+      </footer>
+    <!-- Calling jQuery -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Calling Slick Library -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $("#carousel-slider").slick({
+            arrows: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            mobileFirst: true
+        });
+
+
+        $("#carousel-slider-reviews").slick({
+            arrows: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            mobileFirst: true
+        });
+
+        
+
+        function clickme() {
+  document.getElementById("mobilenav").style.display = "block";
+  document.getElementById("menu-open-id").style.display = "none";
+  document.getElementById("menu-close-id").style.display = "block";
+  document.getElementById("carousel-slider").style.display = "none";
+  document.getElementById("markline").style.display = "none";
+  document.getElementById("section-rev").style.display = "none"; 
+
+
+
+}
+
+function closeme() {
+  document.getElementById("mobilenav").style.display = "none";
+  document.getElementById("menu-open-id").style.display = "block";
+  document.getElementById("menu-close-id").style.display = "none";
+  document.getElementById("carousel-slider").style.display = "block";
+  document.getElementById("markline").style.display = "block";
+  document.getElementById("section-rev").style.display = "block"; 
+}
+
+
+
+
+    </script>
+
+</body>
+
+</html>

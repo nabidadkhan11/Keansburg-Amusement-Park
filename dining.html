@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles Sheet Links -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dining.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
+    <!-- Icons Link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css" rel="stylesheet">
+
+    <!-- Google Fonts Link -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Script Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script defer src="/script.js"></script>
+
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="images/B7E8B69E-CF58-41CD-995D-58AC0BA5E166-removebg-preview.png"
+        type="image/x-icon">
+    <title>Home - Keansburg Amusement Park</title>
+    <style>
+      .last-main{
+        margin-top: 0px;
+      }
+
+      .last-tick{
+        margin-top: 2px;
+      }
+    </style>
+</head>
+<!-- Body -->
+
+<body>
+    <header>
+        <div class="logo"><img src="images/B7E8B69E-CF58-41CD-995D-58AC0BA5E166-removebg-preview.png" width="160px"
+                height="160px" alt=""></div>
+
+                <div class="menu" id="menu-open-id"><i class="ri-menu-line" onclick="clickme()"></i></div>
+                <div class="menu-close" id="menu-close-id"><i class="ri-close-large-line" onclick="closeme()"></i></div>
+               
+
+
+        <div class="header-links">
+            <div class="live-count">
+                <p style="font-size: 19px;">Page Views:</p> &nbsp; <div class="website-counter"></div>
+                <!-- <button id="reset">Reset</button>-->
+            </div>
+            <div class="link-h"><a href="/about us.html">ABOUT US</a></div>
+            <div class="link-h"><a href="/contact.html">CONTACT</a></div>
+            <div class="link-h"><a href="/signup.html">SIGNUP</a></div>
+            <div class="link-h"><a href="/disclaimer.html">DISCLAIMER</a></div>
+            <div class="link-h"><a href="/another feedback.html">FEEDBACK</a></div>
+
+        </div>
+    </header>
+
+    <nav>
+        <div class="container-nav">
+            <div class="nav">
+                <!-- first dropdown -->
+                <div class="dropdown-1">
+                    <span><a href="/index.html">AMUSEMENT PARK</a></span>
+                    <div class="dropdown-content">
+                        <a href="/index.html">Go Karts</a><br>
+                        <a href="/index.html">Keansburg Games</a><br>
+                        <a href="/index.html">Beach</a><br>
+                        <a href="/index.html">Batting Cages</a><br>
+                        <a href="/index.html">Arcades</a>
+                        <div class="image-d-d">
+                            <img src="/images/twister-1.png" width="195px" height="195px" alt="image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second link -->
+                <div class="dropdown-1">
+                    <span><a href="/image gallery.html">IMAGE GALLERY</a></span>
+                    <!-- <div class="dropdown-content2">
+                        <a href="/index.html">Slides</a><br>
+                        <a href="/index.html">Kiddie Lagoon</a><br>
+                        <a href="/index.html">Changing Rooms</a><br>
+                        <a href="/index.html">Lockers</a><br>
+                        <a href="/index.html">Dining</a><br>
+                        <a href="/index.html">Pricing</a>
+                        <div class="image-d-d-2">
+                            <img src="/images/waterpark.png" width="195px" height="195px" alt="image">
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- third link -->
+                <div class="dropdown-1">
+                    <span><a href="dining.html">DINING</a></span>
+                    <div class="dropdown-content3">
+                        <a href="dining.html">Flavor Burst</a><br>
+                        <a href="dining.html">Cotton Candy</a><br>
+                        <a href="dining.html">Zeppole's</a><br>
+                        <a href="dining.html">Mambo Nando's</a><br>
+                        <a href="dining.html">Glenda's Great Fries</a><br>
+                        <a href="dining.html">Candid Confections</a><br>
+                        <a href="dining.html" id="a-2">More...</a>
+                        <div class="image-d-d-3">
+                            <img src="/images/dining.jpg" width="195px" height="195px" alt="image">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Fourth link -->
+                <div class="dropdown-1">
+                    <span><a href="https://keansburgamusementpark.com/wp-content/uploads/2023/02/KeansburgAmuesment_OperatingSchedule_2024_V3.pdf">HOURS</a></span>
+                    <!-- <div class="dropdown-content4">
+                        <a href="#">Group Packages</a><br>
+                        <a href="#">Birthday Packages</a><br>
+                        <a href="#">Fundraising</a>
+                        <div class="image-d-d-4">
+                            <img src="/images/groups.png" width="195px" height="195px" alt="image">
+                        </div>
+                    </div> -->
+                </div>
+
+
+                <!-- Buy tickets -->
+                <div class="last-main">
+                    <div class="last-tick">
+                        <p><a href="/buy tickets.html" id="b-t">BUY TICKET</a></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+    
+     <!-- Mobile Menu -->
+     <div class="mobile-nav" id="mobilenav">
+        <div class="icons-nav">
+            <div class="links-mb-1"><a href="#">Shopping Cart<i style="color: #fff4cc"
+                        class="ri-shopping-cart-2-fill"></i></a></div>
+            <div class="links-mb-2"><a href="/index.html">Amusement Park</a></div>
+            <div class="links-mb-3"><a href="/index.html">WaterPark</a></div>
+            <div class="links-mb-4"><a href="/dining.html">Dining</a></div>
+            <div class="links-mb-5"><a href="/buy tickets.html">Buy Tickets</a></div>
+            <div class="links-mb-5"><a href="another feedback.html">Feedback</a></div>
+            <div class="links-mb-6"><a href="https://keansburgamusementpark.com/wp-content/uploads/2023/02/KeansburgAmuesment_OperatingSchedule_2024_V3.pdf">Hours</a></div>
+            <div class="links-mb-7"><a href="/login.html">Login <i style="color: #fff4cc" class="ri-account-circle-fill"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <main><section>
+    <div id="pagebanner">
+        <div class="inner">
+          <div class="pagebanner-image">
+          <div class="pagebanner-header">
+            <h1>Dining</h1>
+          </div><img src=
+          "https://keansburgamusementpark.com/wp-content/themes/barebones/assets/images/banners/keansburg-dining.png"
+          alt="Dining"></div>
+          <div class="pagebanner-content">
+            <div class="banner-content-treatment"><img src=
+            "https://keansburgamusementpark.com/wp-content/themes/barebones/assets/images/white-wave.png"
+            alt=""></div>
+            <div class="banner-content-inner">
+              <div class="banner-content-inner-headline">
+                A <strong>FUN</strong> day of thrills awaits
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page-wrapper">
+        <div class="inner">
+          <div id="content">
+            <div class="the-content">
+              <div class="vc_row wpb_row vc_row-fluid">
+                <div class=
+                "wpb_column vc_column_container vc_col-sm-12">
+                  <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                      <div class="wpb_text_column wpb_content_element">
+                        <div class="wpb_wrapper"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="sidebyside-dining" class="sidebyside-container">
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                  <img src=
+                  "https://keansburgamusementpark.com/wp-content/themes/barebones/images/default-thumbnail.jpg"
+                  alt="Default Thumbnail"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Holly’s Lemonade Stand
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Craving a taste of summer? Dive into the
+                    deliciousness at Holly's Lemonade Stand! Sip on our
+                    refreshing homemade lemonade or try our signature
+                    Arnold Palmer for the perfect blend of tea and
+                    tangy lemonade. Indulge in crispy charros, cheesy
+                    nachos, and savory pretzels while you soak up the
+                    sunshine. Visit us for a burst of […]</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600" height="420"
+                  src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2024/03/grilled-burgers-recipe-how-to-grill-burgers-1-of-9-650x650-1-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async" fetchpriority="high"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Toucan Grille
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Indulge in mouthwatering delights at Toucan
+                    Grille, nestled within the vibrant atmosphere of
+                    Runaway Rapids Family Waterpark. Our menu boasts an
+                    array of delectable options, from our signature
+                    charcoaled hamburgers and cheeseburgers to
+                    California burgers bursting with flavor. Sink your
+                    teeth into our quarter-pound hotdogs or savor the
+                    crispy goodness of our Mozzarella sticks and
+                    […]</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                  <img width="600" height="420"
+                  src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2024/02/1A0C78F4-2588-47D7-B2F3-AF60EFD6A470-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Pavilion Bar
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Cool down at the Pavilion Bar with a rum bucket
+                    or one of their signature frozen drinks.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                  <img width="600" height="420"
+                  src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2016/01/icecream-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Flavor Burst
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Flavor Burst offers a variety of premium flavors
+                    from which to choose. The intrigue will capture
+                    your attention and the flavor that will bring you
+                    back for more.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width=
+                  "600" height="420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/04/01C269F7-070B-4457-B421-466CD0D5ADDC-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Boardwalk Grill at the Pavilion Bar
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Boardwalk Grill at the Pavilion Bar, will serve
+                    up the delicious boardwalk classics and more!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                  <img width="600" height="420"
+                  src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/cottoncandy-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Cotton Candy
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Serving Cotton Candy, Fresh Lemonade, Churros,
+                    Pretzels and Refreshments!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600" height="420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/zeppole-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Zeppole’s
+                  </div>
+                  <div class="post-excerpt">
+                    <p>The absolute best zeppole on the Jersey Shore!
+                    Freshly made daily.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                  <img width="600" height="420"
+                  src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/B5314B44-6D32-439E-91B4-888057756017-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Mambo Nando’s
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Mambo Nando's Puerto Rican American cuisine-
+                    View their menu here: mambonandos_menu_v5 Click
+                    here to visit their website: mambonandos.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600" height=
+                  "420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/glenda-great-fries-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Glenda’s Great Fries
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Classic boardwalk hand cut fries served with
+                    vinegar. A Keansburg Amusement Park boardwalk
+                    tradition!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600" height=
+                  "420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/DE12C616-4DDB-43D1-A540-4AE99E569D9C-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Georgia’s Lemonade
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Fresh squeezed lemonade to quench everyone's
+                    thirst!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600" height=
+                  "420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/1A938A25-0A62-4835-845C-B19D91FC3F79-600x420.jpeg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Candid Confections
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Delicious desserts, cakes, slushees, and more!
+                    Check out their social media!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                  <img width="600" height=
+                  "420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/unspecified-1-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    The Olde Heidelberg
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Established in 1934, enjoy one of Keansburg
+                    Amusement Park's oldest eateries! Famed hot dogs
+                    are again available along with German beer!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600"
+                  height="420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/shaved-ice-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Snowie Hawaiian Shaved Ice
+                  </div>
+                  <div class="post-excerpt">
+                    <p>A cool treat on a hot summer day, Snowie shaved
+                    ice comes in fun flavors to go!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                <img width="600" height="420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/IMG_0223-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Nickersons
+                  </div>
+                  <div class="post-excerpt">
+                    <p>This open air restaurant has been serving all of
+                    your classic boardwalk favorites&nbsp; from sausage
+                    sandwiches and cheesesteaks to hamburgers and
+                    hotdogs since 1946.&nbsp; You can find something
+                    for everyone! And don’t forget to add some
+                    delicious cheese fries to your order.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600" height="420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/Untitled-7-copy-600x420.png"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Pizza V
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Indulge in the award-winning taste of Pizza V –
+                    voted Best Pizza at the Jersey Shore by Asbury
+                    Press. A third-generation family-owned gem at
+                    Keansburg Amusement Park, serving our guests with
+                    the freshest ingredients. It's a boardwalk
+                    tradition, serving classic Jersey pizza! &nbsp;</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600" height=
+                  "420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/shutterstock_82222750-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Coastal Ice Cream
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Enjoy a boardwalk favorite! Traditional Soft
+                    Served Ice Cream! Top off your treat with one of
+                    our several delicious toppings or order a Sundae,
+                    Thick-Shake, Slushie or Frozen Yogurt!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                 <img width="600" height="420"
+                  src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/Dippin-Dots-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Dippin’ Dots
+                  </div>
+                  <div class="post-excerpt">
+                    <p>One of the best ways to enjoy Dippin’ Dots is at
+                    Runaway Rapids Family Waterpark while having fun
+                    with family and friends! Choose from a variety of
+                    your favorite flavors!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                <img width="600" height=
+                  "420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/pexels-photo-604660-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Girardi’s Kabobs
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Our original Fresh Grilled 1/4lb. Pork & Chicken
+                    Kabobs were established here in the park in 1997.
+                    Also serving traditional Sabrett Hotdogs and other
+                    boardwalk favorites.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                <img width="573" height="420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/kates-place-573x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    CJ’s Spot
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Funnel cake & fun traditional Jersey Shore
+                    boardwalk food!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                  <img width="600" height="420"
+                  src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/IMG_1661-600x420.jpeg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Cheesy’s Pizza
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Craving some traditional boardwalk pizza?
+                    Cheesy’s is the place for you! Toppings include
+                    pepperoni, sausage, peppers, onions, and more!
+                    Traditional, Sicilian, or garlic knots! Yum!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebyside-item">
+                <div class="sidebyside-thumbnail">
+                  <img width="600"
+                  height="420" src=
+                  "https://keansburgamusementpark.com/wp-content/uploads/2015/03/icecreamwafflecone-600x420.jpg"
+                  class=
+                  "attachment-sidebyside-thumbnail size-sidebyside-thumbnail wp-post-image"
+                  alt="" decoding="async"></a>
+                </div>
+                <div class="sidebyside-excerpt">
+                  <div class="post-title">
+                    Nickerson’s Ice Cream
+                  </div>
+                  <div class="post-excerpt">
+                    <p>Nickerson’s Ice cream has been serving freshly
+                    made hard ice cream since 1946 . Choose a cone,
+                    sundae,milkshake, or our crowd favorite; a famous
+                    waffle and ice cream sandwich! The combinations are
+                    endless with toppings like hot fudge, caramel,
+                    sprinkles, and more!&nbsp; &nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <p>Keansburg Amusement Park has been providing fun and entertainment for families since 1904. Our mission is to create lasting memories and unforgettable experiences for our guests.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about us.html">About Us</a></li>
+          <li><a href="/disclaimer.html">Disclaimer</a></li>
+          <li><a href="/buy tickets.html">Tickets</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Information</h3>
+        <p>123 Boardwalk Ave<br>Keansburg, NJ 07734<br>Phone: 1-800-555-1234<br>Email: info@keansburgamusementpark.com</p>
+      </div>
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+
+
+    <p>&copy; 2024 Keansburg Amusement Park. All rights reserved.</p>
+    <!-- <p id="p1"></p> -->
+  </footer>
+    <!-- Calling jQuery -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Calling Slick Library -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $("#carousel-slider").slick({
+            arrows: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            mobileFirst: true
+        });
+
+
+        $("#carousel-slider-reviews").slick({
+            arrows: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            mobileFirst: true
+        });
+
+        
+
+        function clickme() {
+  document.getElementById("mobilenav").style.display = "block";
+  document.getElementById("menu-open-id").style.display = "none";
+  document.getElementById("menu-close-id").style.display = "block";
+  document.getElementById("carousel-slider").style.display = "none";
+  document.getElementById("markline").style.display = "none";
+  document.getElementById("section-rev").style.display = "none"; 
+
+}
+
+function closeme() {
+  document.getElementById("mobilenav").style.display = "none";
+  document.getElementById("menu-open-id").style.display = "block";
+  document.getElementById("menu-close-id").style.display = "none";
+  document.getElementById("carousel-slider").style.display = "block";
+  document.getElementById("markline").style.display = "block";
+  document.getElementById("section-rev").style.display = "block"; 
+}
+    </script>
+
+</body>
+</html>
